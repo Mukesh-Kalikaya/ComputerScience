@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1002</title>
+  </head>
+
+  <style>
+    h1 {
+	text-align: center;
+	color: red;
+	font-size: 45px;
+	font-style: oblique;
+    }
+
+    h2 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 32px;
+	font-style: oblique;
+	color: #FF6D62;
+    }
+
+    h3 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+	color: #CC00CC;
+    }
+
+    h4 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+    }
+
+    h5 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: oblique;
+    }
+    
+    p {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: oblique;
+	color: #212AA5;
+    }
+
+
+    body {
+	font-size: 18px;
+	background: linear-gradient(
+            to bottom,
+            white 0%,
+            #7FF 100%
+	)
+    }
+  </style>
+
+
+  <body>
+    <h1>CS-I Journal J1002: Shell</h1>
+    <p>Name: Mukesh Kalikaya</p>
+    <p>Date: 28-Aug-2022</p>
+
+    <p>I received assistance from: Mr. Ben-Yaakov</p>
+    <p>I assisted: No One</p>
+
+    <h5><u>Navigation</u></h5>
+    <a href="../journals.html"><h4>BACK TO JOURNALS</h4></a>
+    <a href="J1002.css"><h4>CSS File</h4></a>
+    <a href="J1006.html"><h4>Next Journal</h4></a>
+    
+    <h2>Section 1</h2>
+    <h3>Question 1: Name at least two other services that you personally use that are implemented using a Client/Server Model.</h3>
+    <p>Two other services that I personally use that are implemend using a Client/Server Model is email, network printing, and the world wide web.</p>
+
+    <h2>Section 2</h2>
+    <h3>Question 1: It appears that both Jack Williams and John Williams can have a directory of the same name. Do you think the ability to have two different users create a directory of the same name is important? Why?</h3>
+    <p>The ability to have two different users create a directory of the same name is not really important unless the instructor needs to look over the directories. It makes life easier for the instructor to grade them. Even if there isn't an instructor grading these, it is still not that important to have two users use the same name for directories.</p>
+
+    <h2>Section 3</h2>
+    <h3>Question 1: Why do you think the home directory has a special symbol to represent it?</h3>
+    <p>The special symbols used to represent the home directory (~) is used to replace the current user's home directory</p>
+
+
+    <h2>Section 4</h2>
+    <h3>Question 1:Did the prompt change? If so, how? Why is this useful? </h3>
+    <p>The prompt did change. It changed from john-williams@codermerlin:~$ to john-williams@codermerlin:~/Merlin$. This is useful because now you can know which directory you are in and it can help you and make your life easier.</p>
+
+
+    <h2>Section 5</h2>
+    <h3>Question 1: What happens each time you press the â¬†?</h3>
+    <p>Every single time I press the â¬†, my cursor/pointer  moves up one space.</p>
+    <h3>Question 2: What happens each time you press the â¬‡?</h3>
+    <p>Every single time I press the â¬‡, my cursor/pointer moves down one space.
+
+
+      <h2>Section 6</h2>
+      <h3>Question 2: Was "Hello, World!" printed to the screen as before? If not, why not? What do you think happened to the text?</h3>
+    <p>The text was put into a seperate file called out.txt as indicated in the command.</p>
+
+
+    <h2>Section 7</h2>
+    <h3>Question 1: How does the ls command differ from the tree command?</h3>
+    <p>The ls command shows all of the files in the directory you are in. The tree command also does the exact same thing but it shows the files in a more visual way. The tree command also shows sub files such as files inside the directores.</p>
+    <h3>Question 2: How do you choose to use one over the other?</h3>
+    <p>If you just want to look at the files quickly in your directory, it is more efficient that you use the ls command. If you want to look at all of the files, then it is more efficient to use the tree command as it also displays files in other directories.</p>
+
+
+    <h2>Section 8</h2>
+    <h3>Question 1: What do you think the argument to sleep specifies?</h3>
+    <p>The sleep argument suspsends any comans from being given for the specified amount of time. There are also commands that allows you to run the job in the background.</p>
+    <h3>Question 2: Are you able to prove your hypothesis? How?</h3>
+    <p>If you type the command sleep 3, then the Connection String disappears. But if you use the same command but with an ampersand (&) at the end, the Connection String will still be there but the job will the running in the background. If you would like to check if it is actually running, then you can check it by using the jobs command.</p>
+
+    <h2>Section 9</h2>
+    <h3>Question 1: How is the behavior different from what you expected?</h3>
+    <p>I expected for the Connection String to disappear and also something else to happen due to the ampersand (&) at the end.</p>
+    <h3>Question 2: What do you think it means to run a job in the background?</h3>
+    <p>I think of a background job as a job that runs without affecting the commands that are currently being given. The job can run in the background when there is an another job being done by you.</p>
+    <h3>Question 3: What do you think the number displayed in brackets specifies?</h3>
+    <p>The number that displays in the brackets when you use the jobs command specifies the jobs in order. For example, if you have three jobs running, each of them will display in the order in which you used each command. If you used sleep 60 & first and you used sleep 50 & after sleep 60 &, sleep 60 & will have the number 1 in brackets and sleep 50 & will have the number 2 in brackets because it was ran after the first one and so on.</p>
+
+
+    <h2>Section 10</h2>
+    <h3>Question 1: What do you observe as you execute the jobs command?</h3>
+    <p>As I execute the jobs command, I see all of the background jobs that were executed and also in the order they were executed.</p>
+    <h3>Question 2: How do you explain your observations?</h3>
+    <p>Using the jobs command displays all of the jobs that are currently in process.</p>
+
+
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>I learned that CSS is really useful and easy to learn. It can be used to build such amazing websites.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>I encountered challenges when I started this class. I had no experience in programming and I had no clue what was going on. It was just absolutely confusing and I started panicking. It was hard but I got hang of it as I moved on and got help from Mr. Ben-Yaakov.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>This experience could be improved by learning programming. If I learned programming and got introduced to CSS and HTMl, then my experience would have been a lot smoother and a lot easier.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>I now realize that I can do a lot more now that I have learned the basics of CSS and HTML. I could quickly solve some problems when I am stuck and I can also look for accurate reference materials when I am stuck.</p>
+
+  </body>
+</html>

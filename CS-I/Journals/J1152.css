@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1152</title>
+  </head>
+
+  <style>
+    h1 {
+	text-align: center;
+	color: red;
+	font-size: 45px;
+	font-style: oblique;
+    }
+
+    h2 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 32px;
+	font-style: oblique;
+	color: #FF6D62;
+    }
+
+    h3 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+	color: #CC00CC
+    }
+
+    h4 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+    }
+
+    h5 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: oblique;
+    }
+
+    p {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: oblique;
+	color: #212AA5;
+    }
+
+    body {
+	height: auto;
+	font-size: 18px;
+	background: linear-gradient(
+            to bottom,
+            white 0%,
+            #7FF 100%
+	)
+    }
+  </style>
+
+  <body>
+    <h1>CS-I Journal J1152: While Loop</h1>
+    <p>Name: Mukesh Kalikaya</p>
+    <p>Date: 25-January-2023</p>
+
+    <p>I received assistance from: No one</p>
+    <p>I assisted: No one</p>
+
+    <h5><u>Navigation</u></h5>
+    <a href="../journals.html"><h4>BACK TO JOURNALS</h4></a>
+    <a href="J1152.css"><h4>CSS File</h4></a>
+    <a href="J1151.html"><h4>Previous Journal</h4></a>
+
+    <h2>Section 1</h2>
+    <h3>Why is the test executed prior to the loop?</h3>
+    <p>The system has to check the test before executing the loop so it has time to read and respond accordingly.</p>
+    <h3>Compare this diagram to that of the conditional. What are the similarities? What are the differences?</h3>
+    <p>Both of the loops have a minimum of 2 outputs. Diagram also has test sections and a lot of alternatives that divert the output to be different.</p>
+    <h3>What is the purpose of the Jump instruction after the consequent?</h3>
+    <p>Jump instructions in assembly are a way to permanently transfer the execution to another instruction located at a different memory address.</p>
+
+    <h2>What did I learn? What was the "big idea"?</h2>
+    <p>I learned how to use while loops, how they operate, and the process of execution they go through.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>I knew how to use while loops in python but I didn't know how to operate in swift or any of the different languages.</p>
+
+    <h2>How can this experience be improved</h2>
+    <p>This experience cannot be improved because I did learn a lot and they were explained in a way that they are understandable.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>Now that I know how while loops work, I can understand them better and I can also use that to my advantage when programming.</p>
+  </body>
+</html>
+

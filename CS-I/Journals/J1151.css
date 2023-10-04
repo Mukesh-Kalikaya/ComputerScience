@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1151</title>
+  </head>
+
+  <style>
+    h1 {
+	text-align: center;
+	color: red;
+	font-size: 45px;
+	font-style: oblique;
+    }
+
+    h2 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 32px;
+	font-style: oblique;
+	color: #FF6D62;
+    }
+
+    h3 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+	color: #CC00CC
+    }
+
+    h4 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+    }
+
+    h5 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: oblique;
+    }
+
+    p {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: oblique;
+	color: #212AA5;
+    }
+
+    body {
+	height: auto;
+	font-size: 18px;
+	background: linear-gradient(
+            to bottom,
+            white 0%,
+            #7FF 100%
+	)
+    }
+  </style>
+
+  <body>
+    <h1>CS-I Journal J1151: Conditional and Flow Chart</h1>
+    <p>Name: Mukesh Kalikaya</p>
+    <p>Date: 19-January-2023</p>
+
+    <p>I received assistance from: No one</p>
+    <p>I assisted: No one</p>
+
+    <h5><u>Navigation</u></h5>
+    <a href="../journals.html"><h4>BACK TO JOURNALS</h4></a>
+    <a href="J1151.css"><h4>CSS File</h4></a>
+    <a href="J1089.html"><h4>Previous Journal</h4></a>
+    <a href="J1152.html"><h4>Next Journal</h4></a>
+    
+    <h2>Section 1</h2>
+    <h3>Question 1: How does branching enable significantly more complex program behaviour?</h3>
+    <p>Branching enables changes to be made while still maintaining the stability of the program. Through this, computers can do more complex program behavior without having to follow a sequential order.</p>
+    <h3>Question 2: Why do you think the term consequent is used to refer to the statements that are executed when the Boolean test evaluates to true?</h3>
+    <p>I believe the word consequent is employed because the program's assertions follow from and rely on the results of the Boolean tests.</p>
+
+    <h2>Section 2</h2>
+    <h3>Question 1: Why is the first Jump instruction conditional? What determines whether the jump will be executed or not?</h3>
+    <p>The first jump is a conditional as it checks to see if all of the conditions are met that are required to run this conditional. Flags are what decide whether a jump will be executed or not.</p>
+    <h3>Question 2: What is the purpose of the Jump instruction after the consequent?</h3>
+    <p>The purpose is to skip the alternative.</p>
+    <h3>Question 3: Why is there no need for a corresponding Jump instruction aftter the alternative?</h3>
+    <p>Because there is nothing to be evaluated for the program and nothing that has to be done.</p>
+
+    <h2>What did I learn? What was the "big idea"?</h2>
+    <p>Learn about flow charts and conditionals.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>It was a little hard to understand all of the information that I needed to process but after taking some time, I was able to understand all of it.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>Do some pre-research about the topic to get a better sense of what the topic is and what are the basics that are needed to understand the core of the topic.</p>
+
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>Now I know how websites run and what is the process they go through to display something.</p>
+  </body>
+</html>

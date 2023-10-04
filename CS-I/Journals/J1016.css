@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1016</title>
+  </head>
+
+  <style>
+    h1 {
+	text-align: center;
+	color: red;
+	font-size: 45px;
+	font-style: oblique;
+    }
+
+    h2 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 32px;
+	font-style: oblique;
+	color: #FF6D62;
+    }
+
+    h3 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+	color: #CC00CC;
+    }
+
+    h4 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+    }
+
+    h5 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: oblique;
+    }
+
+    p {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: oblique;
+	color: #212AA5;
+    }
+
+    .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+    }
+
+    body{
+	font-size: 18px;
+	background: linear-gradient(
+            to bottom,
+            white 0%,
+            #7FF 100%
+	)
+    }
+  </style>
+
+  <body>
+    <h1>CS-I Journal J1016: Logic Composition</h1>
+    <p>Name: Mukesh Kalikaya</p>
+    <p>Date: 6-October-2022</p>
+
+    <p>I received assistance from: Mr.Ben-Yaakov</p>
+    <p>I assisted: No one</p>
+
+    <h5><u>Navigation</u></h5>
+    <a href="../journals.html"><h4>BACK TO JOURNALS</h4></a>
+    <a href="J1016.css"><h4>CSS File</h4></a>
+    <a href="J1013.html"><h4>Previous Journal</h4></a>
+    <a href="J1017.html"><h4>Next Journal</h4></a>
+
+    
+    <a href="https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKAA9lcRMVwU9s3DEgAsFJAA0A8gCUAOgGcA4gEMALnRYAZEKV4jihXYSoGjVKgDMVAGwV1qkbbuK9saY1XcWoIa3YckJwBZcEoxETgwwjwQSJ8UaAQWAHdwd1iRPCowDLiwcxYwBAhc-jio4sgIqKpeWlT08uxsIzLY7DwxJzS9EG8XfVrG5hj+jz6BnsG49xmzKBGCzMN51enmDxFCMU3TAsW00cyd8DAt043zrwRePfzCo+X+27OPbFenYtLnrJy8v6+XhIZLfM5jFptPKQoHUUEleYHe4iA51OHsF7kXDkQi5fpgUziEAAOVkilUGhYoRwRhEcwwXVm9W4SWcKEicWy4FcnJ8Vls9kcbI5HzuPNFvn5ASFaQQJgeIBMmVRjSVCrVIiyh36jLp+gOeu1nQip2NTO1KKMrQ6jOtFoNUUt-TG03Zpi1bt52s9Ep9jK+CI19Na5rRIKKCKdTrl+3M3F88Ignu2YjNKdh4bBPohtpd8fDHFykHIDDwpQQCBLDLiRIAgsSACLk9SaHTnS58OZ8vwCwKLNtEMQMObnObD5lSwVBKngEw+AoduqssFgERy3wFWqwhpHNdGJhtPez7Wr9kgA-gI8XgOlQfnpEiM-X-MUDEYNfngguJAMDDEGsViSUgACrNpSoSGFQF4Ek+qIsskOgMkO9LVOeXa+P4U7akhaG8DhFgRhAOEXpB95xsCr4cMOtqQPuBRYpA-5iIBZLKC2M6lrGuEKkuCHnvEXoMIagI5D20rTjoQlRBKQlzBKPiYX20xSe6sQqV6ykCTJWn+o0DDJmOaCZF2enJqc+kcoaynJlE+n4BUBFpBZXhjM5DmLGCdnKvuXJOmGr6eQJ6ZuemaINIF0mudmsT+ckHAoGAJYEuQJS8EwqHMUgACSwQAApaAAmmBmihJqakHLc5XkayOi4Lsh71RuYlYU4bY8uOl7IROzVKY0dW+P1KrFG4qEXmVZEZq+WXcmlcmjehMAFueJRJZAEBcAwxCZESwEABYAE50HQihZQAdgADgArmoij1k2bHgeeqwXh1z6JHx+nrmOhoLT1QqSQJL2Gs+k69QDtlarJaVagpvYyueKDrlBiNWvUhEI+uL3PXBFGJvxtmGZj6G4xiKDYCWRB3IlamI0xRLBJdADWdAKLtigANK2AAlozKgAJ4qIoAAUABSBIFIoADCAD2p0KGo+2XQAxmoXOywAlCwQA">
+      <img src="J1016/Mukesh.png" width="auto" height="auto" class="center">
+    </a>
+
+    <h2>What did I learn? What was the "big idea"?</h2>
+    <p>I learned what logic gates are, where and how to use them.</p>
+    <h2>What challenges did I encounter?</h2>
+    <p>I had trouble uploading my image and linking it to the journal.</p>
+    <h2>How could this experience be improved?</h2>
+    <p>As I said above, I had trouble uploading my image into the shell server and attaching it into the the J1016 journal.</p>
+    <h2>Free Reflection: How has what I've learned affected my thinking?</h2>
+    <p>Based on what I have learned, I now know what logic gates are, where they are used, and how to use them.</p>
+  </body>
+</html>

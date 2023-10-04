@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1012</title>
+  </head>
+
+  <style>
+    h1 {
+	text-align: center;
+	color: red;
+	font-size: 45px;
+	font-style: oblique;
+    }
+
+    h2 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 32px;
+	font-style: oblique;
+	color: #FF6D62;
+    }
+
+    h3 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+	color: #CC00CC
+    }
+
+    h4 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+    }
+
+    h5 {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 25px;
+	font-style: oblique;
+    }
+
+    p {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: oblique;
+	color: #212AA5;
+    }
+
+    body {
+	font-size: 18px;
+	background: linear-gradient(
+            to bottom,
+            white 0%,
+            #7FF 100%
+	)
+    }
+  </style>
+
+  <body>
+    <h1>CS-I Journal J1012: Alternative Base Addition</h1>
+    <p>Name: Mukesh Kalikaya</p>
+    <p>Date: 23-September-2022</p>
+
+    <p>I received assistance from: No one</p>
+    <p>I assisted: No one</p>
+
+    <h5><u>Navigation</u></h5>
+    <a href="../journals.html"><h4>BACK TO JOURNALS</h4></a>
+    <a href="J1012.css"><h4>CSS File</h4></a>
+    <a href="J1006.html"><h4>Previous Journal</h4></a>
+    <a href="J1013.html"><h4>Next Journal</h4></a>
+        
+    
+    <h2>Section 1</h2>
+    <h3>Question 1: Describe the general process for executing addition, regardless of base.</h3>
+    <p>Answer: Allign all of the digits vertically. If any addened has fewer digits than the addened with maximum digits, we may place a zero in columns to the left of the existing addened. Add the two digits of the addened and then carry. Repeat the process with the column on the left until reaching the final column.</p>
+
+    <h2>Section 2</h2>
+    <h3>Question 1: What special factors need to be considered when executing addition with octal numbers?</h3>
+    <p>The octal number system only has 8 numbers (0-7). If your number goes over these values, you need to carry them over to the next one.</p>
+
+    <h2>Section 3</h2>
+    <h3>Question 1: What special factors need to be considered when executing addition with hexadecimal numbers?</h3>
+    <p>A hexadecimal can have up to 16 values if you also count the alphabets (A=10 to F=15).</p>
+
+    <h2>Section 4</h2>
+    <h3>Question 1: What special factors need to be considered when executing addition with binary numbers?</h3>
+    <p>There are only two binary numbers (0 and 1). If you add with the opposite numbers such as 0+1 or 1+0, you can do it normally. When you add the same number to each other, such as 1+1 or 0+0, the result is going to be different. If you are adding 1+1, you need to carry over the number.</p>
+
+    <h2>What did I learn? What is the "big idea"?</h2>
+    <p>I learned how to add octal, hexadecimal, and binary numbers.</p>
+
+    <h2>What challenges did I encounter?</h2>
+    <p>Since this was kind of related with mathematics, I didn't really have any kinds of trouble.</p>
+
+    <h2>How could this experience be improved?</h2>
+    <p>I am not really sure because my experience was perfectly fine and as I said above, I had no troubles with this topic.</p>
+
+    <h2>Free Reflection: How has what I have learned affected my thinking?</h2>
+    <p>I didn't really know anything about octal, hexadecimal, and binary numbers. I learned all of those and also in a way I can use them in the future if needed.</p>
+
+  </body>
+</html>
