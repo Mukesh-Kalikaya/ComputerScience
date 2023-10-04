@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/master.swiftdeps"
+  },
+  "/home/mukesh-kalikaya/Projects/Swap/bubbleSort/sort.swift": {
+    "dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/bubbleSort/sort.d",
+    "object": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/bubbleSort/sort.swift.o",
+    "swiftmodule": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/bubbleSort/sort~partial.swiftmodule",
+    "swift-dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/bubbleSort/sort.swiftdeps"
+  },
+  "/home/mukesh-kalikaya/Projects/Swap/insertionSort/insertion.swift": {
+    "dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/insertionSort/insertion.d",
+    "object": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/insertionSort/insertion.swift.o",
+    "swiftmodule": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/insertionSort/insertion~partial.swiftmodule",
+    "swift-dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/insertionSort/insertion.swiftdeps"
+  },
+  "/home/mukesh-kalikaya/Projects/Swap/main.swift": {
+    "dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.d",
+    "object": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
+    "swiftmodule": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swiftdeps"
+  },
+  "/home/mukesh-kalikaya/Projects/Swap/selectionSort/selection.swift": {
+    "dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/selectionSort/selection.d",
+    "object": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/selectionSort/selection.swift.o",
+    "swiftmodule": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/selectionSort/selection~partial.swiftmodule",
+    "swift-dependencies": "/home/mukesh-kalikaya/Projects/Swap/.build/x86_64-unknown-linux-gnu/debug/Simple.build/selectionSort/selection.swiftdeps"
+  }
+}
