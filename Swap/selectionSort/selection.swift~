@@ -1,0 +1,15 @@
+func selectionSort(integers: inout[Int]) {
+
+    for targetIndex in 0 ..< integers.count {
+        print(integers)
+        var minimumIndex: Int
+        minimumIndex = targetIndex
+
+        for currentIndex in targetIndex ..< integers.count {
+            if integers[currentIndex] < integers[minimumIndex] {
+                minimumIndex = currentIndex
+            }
+        }
+        swap(integers: &integers, firstIndex: minimumIndex, secondIndex: targetIndex)
+    }
+}

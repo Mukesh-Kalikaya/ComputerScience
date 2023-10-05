@@ -1,0 +1,6 @@
+version: "Swift version 5.8.1 (swift-5.8.1-RELEASE)"
+options: "fb6e5c7ca5f94c795c710cfdac3aa1b7606461e87e1db5181343a0f15bf47b13"
+build_start_time: [1692205534, 421218000]
+build_end_time: [1692205535, 844620000]
+inputs:
+  "/home/mukesh-kalikaya/Projects/Swap/main.swift": !private [1692205531, 0]
