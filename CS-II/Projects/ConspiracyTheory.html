@@ -2,147 +2,149 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    
     <title>Projects - Conspiracy Theories</title>
-  <style>
-    h1 {
-	margin-top: 0;
-	text-align: center;
-	color: red;
-	font-size: 45px;
-	font-style: oblique;
-    }
+    <style>
+      h1 {
+	  margin-top: 0;
+	  text-align: center;
+	  color: red;
+	  font-size: 45px;
+	  font-style: oblique;
+      }
 
-    h2 {
-	margin-top: 1;
-	padding: 0;
-	text-align: justify;
-	font-weight: bold;
-	font-size: 32px;
-	font-style: oblique;
-	color: #FF6D62;
-    }
+      h2 {
+	  margin-top: 1;
+	  padding: 0;
+	  text-align: justify;
+	  font-weight: bold;
+	  font-size: 32px;
+	  font-style: oblique;
+	  color: #FF6D62;
+      }
 
-    h3 {
-	margin-left: 5px;
-	margin-right: 10px;
-	text-align: justify;
-	font-weight: bold;
-	font-size: 20px;
-	font-style: oblique;
-	color: #CC00CC;
-    }
+      h3 {
+	  margin-left: 5px;
+	  margin-right: 10px;
+	  text-align: justify;
+	  font-weight: bold;
+	  font-size: 20px;
+	  font-style: oblique;
+	  color: #CC00CC;
+      }
 
-    h4 {
-	margin: 25px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-	text-align: justify;
-	font-weight: bold;
-	font-size: 20px;
-	font-style: oblique;
-    }
+      h4 {
+	  margin: 25px;
+	  margin-bottom: 0px;
+	  margin-left: 5px;
+	  text-align: justify;
+	  font-weight: bold;
+	  font-size: 20px;
+	  font-style: oblique;
+      }
 
-    h5 {
-	margin-left: 5px;
-	text-align: justify;
-	font-weight: bold;
-	font-size: 25px;
-	font-style: oblique;
-    }
+      h5 {
+	  margin-left: 5px;
+	  text-align: justify;
+	  font-weight: bold;
+	  font-size: 25px;
+	  font-style: oblique;
+      }
 
-    p {
-	margin-left: 5px;
-	margin-right: 10px;
-	text-align: justify;
-	font-weight: bold;
-	font-size: 18px;
-	font-style: oblique;
-	color: #212AA5;
-    }
+      p {
+	  margin-left: 5px;
+	  margin-right: 10px;
+	  text-align: justify;
+	  font-weight: bold;
+	  font-size: 18px;
+	  font-style: oblique;
+	  color: #212AA5;
+      }
+      
+      body {
+	  margin: 0;
+	  padding: 0;
+	  overflow: auto;
+      }
+      
+      .gradient-background {
+	  margin: 0;
+	  width: 100%;
+	  height: 100%;
+	  background: linear-gradient(to bottom, #F9E795, #FCF6F5, #F96167);
+      }
+      
+      .black-text {
+	  color: #000000;
+      }
+      
+      .text-gradient {
+	  background: linear-gradient(to bottom, #212AA5, #000000);
+	  -webkit-background-clip: text;
+	  color: transparent;
+      }
+      
+      .center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+      }
+      
+      ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: auto;
+	  background-color: #333;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+      }
+      
+      li {
+	  display: inline;
+	  float: left;
+	  padding: 10px;
+      }
+      
+      li a {
+	  display: inline-block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+      }
+      
+      .dropdown {
+	  position: relative;
+	  display: inline-block;
+      }
 
-    body {
-	margin: 0;
-	padding: 0;
-	overflow: auto;
-    }
+      .dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #333;
+	  min-width: 120px;
+	  z-index: 1;
+      }
 
-    .gradient-background {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to bottom, #F9E795, #FCF6F5, #F96167);
-    }
+      .dropdown-content a {
+	  color: white;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+      }
 
-    .black-text {
-	color: #000000;
-    }
-    
-    .text-gradient {
-	background: linear-gradient(to bottom, #212AA5, #000000);
-	-webkit-background-clip: text;
-	color: transparent;
-    }
-
-    .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-    }
-
-    ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
-    }
-    
-    li {
-	float: left;
-    }
-    
-    li a, .droptbtn {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-    }
-
-    li a:hover, .dropdown:hover .dropbtn {
-	background-color: #111;
-    }
-
-    li.dropdown {
-	display: inline-block;
-    }
-
-    .dropdown-content {
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-    }
-    
-    .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-    }
-    
-    .dropdown-content a:hover {background-color: #f1f1f1;}
-    
-    .dropdown:hover .dropdown-content {
-	display: block;
-    }
-  </style>
+      .dropdown-content a:hover {
+	  background-color: #555;
+      }
+      
+      .dropdown:hover .dropdown-content {
+	  display: block;
+      }
+    </style>
   </head>
   
   <body>
@@ -150,14 +152,15 @@
       <ul>
 	<li><a href="../../index.html">Back to Home</a></li>
 	<li><a href="ConspiracyTheory.css">CSS File(Under Construction)</a></li>
+
 	<li class="dropdown">
-	  <a class="dropbtn">Dropdown</a>
+	  <a href="ConspiracyTheory.html">Dropdown</a>
 	  <div class="dropdown-content">
-	    <a href=".recommendation"><h4>Recommendation Algorithms</h4></a>
-	    <a href=".feedback">Feedback Loop</a>
-	    <a href=".amplification">Conspiracy Theory & Algorithmic Amplification</a>
-	    <a href=".incentives">Platform Incentives</a>
-	    <a href=".exploitation">Potential for Exploitation</a>
+	    <a href="#recommendation">Recommendation Algorithms</a>
+	    <a href="#feedback">Feedback Loop</a>
+	    <a href="#amplification">Algorithmic Amplification</a>
+	    <a href="#incentives">Platform Incentives</a>
+	    <a href="#exploitation">Potential for Exploitation</a>
 	  </div>
 	</li>
       </ul>
@@ -166,28 +169,28 @@
       <p>Date: 03-October-2023</p>
       <p>I was assisted by: W3Schools(for the dropdown menu).</p>
       
-      <h2 class="recommendation">The Basics of Recommendation Algorithms</h2>
+      <h2 id="recommendation">The Basics of Recommendation Algorithms</h2>
       <h3>On the surface level, recommendation algorithms do exactly what they sound like. They recommend the user with content that is similar to the content that was looked at by the user previously. Recommendation algorithms are digital tools that suggest things to users based on their interests and actions, but they can sometimes create bubbles of similar content, so it's important to use them responsibly.</h3>
       <p>They function as the invisible hand behind personalized content suggestions on various online platforms, from social media to e-commerce websites. These algorithms operate by closely tracking and analyzing user interactions, such as clicks, likes, shares, and viewing durations, and subsequently constructing individualized user profiles that encapsulate their preferences and behaviors. In parallel, they create profiles for the content available on the platform, categorizing it by attributes like subject matter or popularity. The primary role of these algorithms is to match the user's profile with content profiles and present recommendations based on this alignment.</p>
       <img src="Images/Recommendation.png" width="auto" height="auto" class="center">
 
       
-      <h2>The Feedback Loop</h2>
+      <h2 id="feedback">The Feedback Loop</h2>
       <h3>The Feedback loop is a type of a recommendation algorithm that the more you like or watch something, the more it suggests similar stuff, which can lead to seeing the same things repeatedly. This can eventually clog what the reader sees and generates extremely biased content about a topic which can make the user believe in that topic even more. </h3>
       <p class="text-gradient">The concept of the feedback loop within recommendation algorithms plays a pivotal role in how these systems function. This mechanism entails that when a user engages with specific content, such as liking, sharing, or watching, the algorithm takes note and subsequently suggests similar content. The objective is to refine and customize recommendations to align with the user's preferences and behavior over time. However, this practice, while intending to improve the user experience, also carries the risk of creating what is commonly referred to as a "filter bubble" or "echo chamber." This phenomenon occurs when users are consistently exposed to a limited range of content, effectively narrowing their digital horizons. In this context, the feedback loop is a double-edged sword, enhancing personalization but potentially limiting the diversity of content to which users are exposed. As a result, it is crucial to strike a balance between providing tailored recommendations and ensuring users are exposed to a broad spectrum of content, thus mitigating the adverse effects of over-personalization.</p>      
       <img src="Images/Feedback.png" width="auto" height="auto" class="center">
 
-      <h2 class="black-text">Conspiracy Theories & Algorithmic Amplification</h2>
+      <h2 id="amplification" class="black-text">Conspiracy Theories & Algorithmic Amplification</h2>
       <h3>Conspiracy theories and algorithmic amplification examine how recommendation algorithms can inadvertently reinforce and amplify such theories by continually suggesting related content, potentially contributing to the spread of misinformation and creating filter bubbles.</h3>
       <p>The debate around the role of social media algorithms in spreading conspiracy theories and extreme content. While YouTube's algorithm has faced criticism for potentially leading viewers towards radical content, the precise impact of algorithms on radicalization is challenging to determine. Research points to how radical communities on the fringes of the web can create and promote conspiracy theories, which then trend on social media. YouTube made efforts to clean up its platform in response to pressure but continued to recommend conspiratorial videos to viewers. Some studies suggest that conspiracy channels may not receive significant traffic from recommendations. The inner workings of social media algorithms remain a closely guarded secret. Instead of seeing audiences as passive, it's important to recognize their active role in engaging with and even propagating conspiracy theories, which can move from the deep web to mainstream audiences. These theories are used for indoctrination and radicalization and often align with populist political rhetoric. The article also touches on the role of far-right online communities in promoting conspiracy theories, citing examples like Pizzagate and QAnon, and the collective labor involved in constructing these theories. It suggests that while algorithms may play a part, the real issue is political polarization rather than algorithmic manipulation.</p>
       <img src="Images/ConspiracyTheory_AlgorithmicAmplification.png" width="auto" height="auto" class="center">
       
-      <h2 class="black-text">Platform Incentives</h2>
+      <h2 id="incentives" class="black-text">Platform Incentives</h2>
       <h3>Platform incentives refer to the rewards, benefits, or motivations provided to users, developers, or stakeholders to encourage participation, engagement, or contributions on a platform or ecosystem. They make the user get more interactions with the app, spend more time browsing though content, and companies use this tactic to keep the users submerged into their app.</h3>
       <p>An incentive is a way to motivate people by offering rewards that drive them to act in a particular manner. There exist various types of incentives, such as bonuses, commissions, contests, and goals, each designed to encourage individuals to excel in their roles or attain specific objectives. While some incentives involve giving out cash rewards, others provide non-monetary benefits like gift cards or merchandise. Incentive programs can also be structured around a points-based system where individuals accumulate points for favorable actions, or they can include pro-social incentives that reward both the person making a referral and the one being referred. In certain situations, incentives take the form of travel rewards or sweepstakes, offering participants a chance to win prizes. These incentive mechanisms are employed to motivate and recognize individuals for their contributions and accomplishments across a wide range of domains, from sales to employee performance.</p>
       <img src="Images/Incentive.png" width="auto" height="auto" class="center">
       
-      <h2 class="black-text">Potential for Exploitation</h2>
+      <h2 id="exploitation" class="black-text">Potential for Exploitation</h2>
       <h3>Potential for exploitation is a concept that highlights the inherent vulnerability or susceptibility of a system, process, or circumstance to be misused, manipulated, or leveraged in ways that may not align with its intended purpose. This vulnerability can be exploited by individuals, organizations, or malicious actors for personal gain, unethical purposes, or to cause harm, potentially leading to negative consequences, security breaches, or breaches of trust within a given context.</h3>
       <p>In today's world, social media platforms use algorithms that aim to keep users engaged by showing them content they are likely to find interesting. However, this approach can inadvertently lead to a lack of diversity in the information and viewpoints users encounter, potentially causing misunderstandings and reinforcing extreme opinions. Researchers have proposed that it's essential for social media users to become more aware of how these algorithms operate. Moreover, they suggest that social media companies could take steps to adjust their algorithms to present a broader spectrum of content. This change could help foster a more inclusive and balanced online community, offering a superior user experience while curbing polarization and the spread of false information. By doing so, these platforms can align better with human instincts that encourage cooperation and diverse perspectives, ultimately enhancing the overall social media experience.</p>
       <img src="Images/Exploitation.png" width="auto" height="auto" class="center">
