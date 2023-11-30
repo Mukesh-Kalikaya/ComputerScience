@@ -1,6 +1,0 @@
-version: "Swift version 5.8.1 (swift-5.8.1-RELEASE)"
-options: "600cbaf09d7314310647110f449cc2bbf1ebe31e3dd0452e03655c7599e2efc6"
-build_start_time: [1693275167, 966414000]
-build_end_time: [1693275168, 142471000]
-inputs:
-  "/home/mukesh-kalikaya/Projects/Prime/main.swift": [1693275165, 0]

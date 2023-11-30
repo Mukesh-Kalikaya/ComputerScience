@@ -1,6 +1,0 @@
-version: "Swift version 5.8.1 (swift-5.8.1-RELEASE)"
-options: "fa9129c5d6601dfa5b613933a94ef1aada82d7320f3690e2b2f01e5d0190096b"
-build_start_time: [1692035946, 604836000]
-build_end_time: [1692035946, 760088000]
-inputs:
-  "/home/mukesh-kalikaya/Projects/main.swift": [1692035943, 0]

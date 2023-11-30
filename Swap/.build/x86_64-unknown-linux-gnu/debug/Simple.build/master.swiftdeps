@@ -1,9 +1,0 @@
-version: "Swift version 5.8.1 (swift-5.8.1-RELEASE)"
-options: "fb6e5c7ca5f94c795c710cfdac3aa1b7606461e87e1db5181343a0f15bf47b13"
-build_start_time: [1694195849, 522426000]
-build_end_time: [1694195849, 726885000]
-inputs:
-  "/home/mukesh-kalikaya/Projects/Swap/bubbleSort/sort.swift": [1693535018, 0]
-  "/home/mukesh-kalikaya/Projects/Swap/insertionSort/insertion.swift": [1694195661, 0]
-  "/home/mukesh-kalikaya/Projects/Swap/main.swift": [1694195847, 0]
-  "/home/mukesh-kalikaya/Projects/Swap/selectionSort/selection.swift": [1694193949, 0]
